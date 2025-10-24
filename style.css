@@ -473,4 +473,8 @@ footer ul {
     footer {
         margin-top: 700px;
     }
+
+    .input button {
+        width: 250px;
+    }
 }
