@@ -185,7 +185,7 @@ header{
 }
 
 .sec3_contents h1 {
-    width: 120%;
+    width: 100%;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 50px;
@@ -466,15 +466,59 @@ footer ul {
     .sec4 {
         display: flex;
         flex-direction: column;
-        height: 270px;  
+        position: relative;
+        height: 243px;
+        margin-bottom: 0;
+    }
+
+        .sec4_contents {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -275px;
+    }
+
+    .sec4_img {
+        bottom: 0;
+        width: 302px;
+        position: absolute;
+    }
+
+    .sec4_contents h1  {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .inputs button {
+        width: 50%;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    .inputs button img {
+        width: 100%;
     }
 
 
     footer {
-        margin-top: 700px;
+        margin-top: 415px;
     }
 
-    .inputs button {
-        width: 350px;
+    footer ul {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: normal;
     }
+
+    .footer ul li {
+        width: 50%;
+    }
+
+    .footer_contact {
+        flex-direction: column-reverse;
+    }
+
+
 }
